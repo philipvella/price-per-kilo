@@ -6,7 +6,7 @@
     products.forEach(el => {
         //weights
         let weights = (el.getElementsByClassName('product-title')[0].innerHTML)
-        const grams_regex = /\d{1,}.(g|gr|gram|grams|\sg|\sgr|\sgram|\sgrams)$/gmi;
+        const grams_regex = /\d{1,}.(g|gr|grs|gram|grams|\sg|\sgr|\sgrs|\sgram|\sgrams)$/gmi;
         const kilograms_regex = /\d{0,},{0,}\d{0,}\.{0,}\d{1,}.(kg|kilo|kilos|ks|kilograms|kilo\sgrams|\skg|\skilo|\skilos|\sks|\skilograms|\skilo\sgrams)$/gmi;
 
 
