@@ -1,4 +1,5 @@
-
+(function () {
+ 
     let cleanNumber = (num) => (Number(num.replace(/[^0-9.-]+/g, "")));
 
     let products = document.querySelectorAll('.product-details-container');
@@ -51,3 +52,5 @@
 
 
     })
+
+})();
